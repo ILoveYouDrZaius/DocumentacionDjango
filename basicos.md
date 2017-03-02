@@ -1,6 +1,3 @@
-### Dudas
-
-
 # General
 
 ### Reiniciar apache y ver log de error
@@ -103,13 +100,3 @@ form = UserFeaturesForm(initial={
                 'night_mode'        :   client.nightMode,
 })
 ```
-
-#### Dudas resueltas
-* CSS Admin -> collectstatic
-* Ver log Django -> clase logger de Sergio
-* ¿Cada modelo es una aplicación aparte? -> No
-* ¿Utilizar User de django para usuario telefonía? -> Sí, heredando de ella
-* ¿Reiniciar apache para cambios? -> Para cambios en código Python sí
-* En la template, ¿para qué sirve block content? -> Genera bloques de contenido que luego al heredar puedes sobrescribir según convenga. Más información en documentación.
-* Redirección infinita -> arreglada
-* Propagación error desde form hasta template -> añadiendo campo
